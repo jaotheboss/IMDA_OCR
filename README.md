@@ -40,7 +40,8 @@ class Captcha(object):
 1. Create a virtual environment by running: `python3.8 -m venv .env`
 2. Activate the virtual environment by running: `source .env/bin/activate`
 3. Upgrade `pip` in the virtual environment by running: `pip install --upgrade pip`
-4. Download required packages by running: `pip install -r requirements.txt`
+4. Download `pybind11` first as it is required for the evaluation by running: `pip install pybind11==2.10.0` 
+5. Download required packages by running: `pip install -r requirements.txt`
 
 ## Inference
 1. Image paths have already been pre-defined. 
