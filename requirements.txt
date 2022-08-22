@@ -1,0 +1,13 @@
+# paddle model
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+paddlepaddle==2.3.2
+paddleocr>=2.0.1
+
+# hf model
+transformers==4.21.1
+sentencepiece==0.1.97
+torch==1.12.1 # if deployed on linux, can afford to download cpu version
+
+# evaluation (the order matters)
+pybind11==2.10.0 
+fastwer==0.1.3
